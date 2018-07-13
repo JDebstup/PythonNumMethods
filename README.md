@@ -9,7 +9,7 @@ The programs are licensed in GNU GPLv3.
 
 ***
 
-##### To-Do List
+### To-Do List
 
 - ~~Euler's Numerical Method~~
 - Newton-Raphson's Numerical Method
@@ -19,7 +19,7 @@ The programs are licensed in GNU GPLv3.
 
 ***
 
-##### Pre-requisites
+### Pre-requisites
 
 Your machine must (obviously) have Python, of version 3 or greater
 
