@@ -16,3 +16,13 @@ The programs are licensed in GNU GPLv3.
 - Fourier Transform
 - Laplace Transform
 - TBC
+
+***
+
+##### Pre-requisites
+
+Your machine must (obviously) have Python, of version 3 or greater
+
+You must have MatPlotLib, Numpy, and Scipy installed (to confirm this, check within the files you wish to use)
+
+Other required external modules will be notified within the specific files, but generally these three modules are a necessity to make these programs work
