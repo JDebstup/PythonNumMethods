@@ -1,5 +1,5 @@
 # PythonNumMethods
-#A collection of numerical method automation programs, written in Python 3.
+### A collection of numerical method automation programs, written in Python 3.
 
 Done as a side project during summer (after going over numerical methods used in Engineering Maths), I've decided to share the programs that I've made in Python which had helped me understand the methods further.
 
