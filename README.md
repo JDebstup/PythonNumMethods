@@ -9,16 +9,6 @@ The programs are licensed in GNU GPLv3.
 
 ***
 
-### To-Do List
-
-- ~~Euler's Numerical Method~~
-- Newton-Raphson's Numerical Method
-- Fourier Transform
-- Laplace Transform
-- TBC
-
-***
-
 ### Pre-requisites
 
 Your machine must (obviously) have Python, of version 3 or greater
@@ -26,3 +16,17 @@ Your machine must (obviously) have Python, of version 3 or greater
 You must have MatPlotLib, Numpy, and Scipy installed (to confirm this, check within the files you wish to use)
 
 Other required external modules will be notified within the specific files, but generally these three modules are a necessity to make these programs work
+
+***
+
+### To-Do List
+
+- Euler's Numerical Method
+    - Base Algorithm
+        - ~~Forward Euler~~
+        - Backward Euler
+    - GUI for Method
+- Newton-Raphson's Numerical Method
+- Fourier Transform
+- Laplace Transform
+- TBC
