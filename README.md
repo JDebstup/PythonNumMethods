@@ -24,7 +24,7 @@ Other required external modules will be notified within the specific files, but 
 - Euler's Numerical Method
     - Base Algorithm
         - ~~Forward Euler~~
-        - Backward Euler
+        - ~~Backward Euler~~
     - GUI for Method
 - Newton-Raphson's Numerical Method
 - Fourier Transform
