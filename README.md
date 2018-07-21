@@ -22,9 +22,12 @@ Other required external modules will be notified within the specific files, but 
 ### To-Do List
 
 - Euler's Numerical Method
-    - Base Algorithm
+    - ~~Base Algorithm~~
         - ~~Forward Euler~~
         - ~~Backward Euler~~
+    - GUI for Method
+- Fixed-Point Iteration
+    - ~~Base Algrithm~~
     - GUI for Method
 - Newton-Raphson's Numerical Method
 - Fourier Transform
