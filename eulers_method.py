@@ -1,9 +1,4 @@
 '''
-First-Order Euler's Method Automation Program
-Version 0.3
-Written by Jay Piamjariyakul (github.com/JDebstup)
-Compatible with Python 3 or greater
-
 1) Initial setup
 '''
 #from __future__ import division
@@ -12,7 +7,7 @@ from scipy.integrate import odeint
 from matplotlib import pyplot as plot
 #import tkinter as tk
 
-print("First-Order Euler's Method Automation Program v 0.3")
+print("First-Order Euler's Method Automation Program v 0.4")
 print("By Jay Piamjariyakul (github.com/JDebstup)")
 print("Compatible with Python 3 or greater")
 print("")
@@ -99,18 +94,27 @@ for counter in range(step_total):
 '''
 plot.suptitle("ODE: " + equation_input)
 
+var_true, = plot.plot(var_in_true, var_out_true, color="red", linestyle=":", label="True")
+
 plot.subplot(2, 1, 1)
 plot.title("Computing 1st-order ODE w/ Euler's Method")
-plot.plot(var_in_true, var_out_true, color="red", linestyle=":", label="True")
-plot.plot(var_in_num, var_out_num_forw, marker="x", color="green", linestyle="-.", label="Forward")
+var_true, = plot.plot(var_in_true, var_out_true, color="red", linestyle=":", label="True")
+var_forw, = plot.plot(var_in_num, var_out_num_forw, color="green", linestyle="-", label="Forward")
 plot.ylabel("Forward")
-plot.legend(("True", "Forward"))
+plot.legend(handles=[var_true, var_forw])
+plot.minorticks_on()
+plot.grid(b=True, which='major', color='0.5', linestyle='-')
+plot.grid(b=True, which='minor', color='0.75', linestyle='--')
 
 plot.subplot(2, 1, 2)
-plot.plot(var_in_true, var_out_true, color="red", linestyle=":", label="True")
-plot.plot(var_in_num, var_out_num_back, marker="x", color="blue", linestyle="--", label="Backward")
+#var_back_true, = plot.plot(var_in_true, var_out_true, color="red", linestyle=":", label="True")
+var_true, = plot.plot(var_in_true, var_out_true, color="red", linestyle=":", label="True")
+var_back, = plot.plot(var_in_num, var_out_num_back, color="blue", linestyle="-", label="Backward")
 plot.ylabel("Backwards")
-plot.legend(("True", "Backward"))
+plot.legend(handles=[var_true, var_back])
+plot.minorticks_on()
+plot.grid(b=True, which='major', color='0.5', linestyle='-')
+plot.grid(b=True, which='minor', color='0.75', linestyle='--')
 
 plot.xlabel("Input")
 print()
