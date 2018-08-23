@@ -34,4 +34,6 @@ Other required external modules will be notified within the specific files, but 
     - Fourier Series
         - ~~Trigonometric Form~~
 - Laplace Transform
+    - ~~Base Algorithm~~
+    - Graph(?)
 - TBC
