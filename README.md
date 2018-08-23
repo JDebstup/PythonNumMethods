@@ -31,5 +31,7 @@ Other required external modules will be notified within the specific files, but 
     - GUI for Method
 - Newton-Raphson's Numerical Method
 - Fourier Transform
+    - Fourier Series
+        - ~~Trigonometric Form~~
 - Laplace Transform
 - TBC
